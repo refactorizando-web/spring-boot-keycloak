@@ -1,0 +1,21 @@
+= Spring Boot keycloak example
+
+== How does keycloak run?
+
+First off is run and configure keycloak:
+
+        docker run -p 8081:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=password jboss/keycloak -Dkeycloak.profile.feature.docker=enabled -b 0.0.0.0
+
+After run keycloak you can configure keycloak if you have any doubt you can take a look into the next blog:
+
+https://refactorizando.com/spring-boot-keycloak
+
+
+== How does the application run?
+
+After that you can run the application:
+
+    mvn spring-boot:run
+
+
+
