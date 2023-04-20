@@ -8,7 +8,8 @@ First off is run and configure keycloak:
 
 After run keycloak you can configure keycloak if you have any doubt you can take a look into the next blog:
 
-https://refactorizando.com/integracion-keycloak-spring-boot
+* Spanish Version : https://refactorizando.com/integracion-keycloak-spring-boot
+* English Version: https://refactorizando.com/en/how-integrate-keycloak-spring-boot
 
 
 == How does the application run?
